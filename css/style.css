@@ -112,6 +112,12 @@ a:hover {
   vertical-align: middle;
 }
 
+.about-img-div img{
+  margin-left: 0;
+  position: relative;
+  right: 10px;
+
+}
 /*--/ Sections /--*/
 
 .sect-4 {
