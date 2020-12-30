@@ -115,3 +115,30 @@
 	});
 
 })(jQuery);
+
+
+// Form Submission to Spreadsheet Start
+
+$('#portfolio-form').submit(e=>{
+	e.preventDefault();
+	$.ajax({
+		url:'https://script.google.com/macros/s/AKfycbztNvdVqDJ0MA5JHPephPUCqKhPx11bGvO20mXT1XaRDjTCuzXv/exec',
+		data:$('#portfolio-form').serialize(),
+		method:'post',
+		success:function(response){
+			alert('Message Recorded. Thank You');
+			window.location.reload();
+			//window.location.href='https://google.com'                    
+		},
+		error:function(err){
+			alert('Error'+err);
+		}
+	  
+	})
+})
+
+// Form Submission to Spreadsheet End
+
+
+ 
+
