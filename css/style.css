@@ -165,6 +165,10 @@ a:hover {
   margin: 0 auto;
 }
 
+#certification-line{
+  background-color: #0078ff;
+}
+
 /*--/ Title Left /--*/
 
 .title-box-2 {
