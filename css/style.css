@@ -1284,3 +1284,10 @@ footer .credits a {
   padding-right: 10%;
 }
 
+
+@media (max-width: 680px) {
+  #home .container{
+    position: relative;
+    top: 30%;
+  }
+}
