@@ -161,7 +161,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #ffffff;
   margin: 0 auto;
 }
 
@@ -1058,6 +1058,7 @@ a:hover {
 
 .contact-mf {
   margin-top: 4rem;
+
 }
 
 /*======================================
@@ -1067,7 +1068,7 @@ a:hover {
 footer {
   text-align: center;
   color: #fff;
-  padding-bottom: 4rem;
+  padding-bottom: 0;
 }
 
 footer .copyright {
@@ -1290,4 +1291,37 @@ footer .credits a {
     position: absolute;
     bottom: 15% !important; 
   }
+}
+
+@media (max-width: 380px) {
+  #home .container h1{
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 390px) {
+  body{
+    width:fit-content;
+  }
+}
+
+@media (max-width: 570px) {
+  #about{
+    padding-top:0px;
+  }
+}
+
+.blue-background {
+  background-color: #62a6f5 !important;
+  width: 100%;
+  padding-top: 30px;
+
+}
+
+#project-title p, #project-title h3{
+  color: white;
+}
+
+#contact{
+  padding-bottom: 5px;
 }
