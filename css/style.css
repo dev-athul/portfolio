@@ -1288,6 +1288,6 @@ footer .credits a {
 @media (max-width: 680px) {
   #home .container{
     position: absolute;
-    bottom: 10% !important; 
+    bottom: 15% !important; 
   }
 }
