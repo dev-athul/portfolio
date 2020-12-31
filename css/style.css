@@ -1278,3 +1278,9 @@ footer .credits a {
   left: 50%;
   transform: translateX(-50%);
 }
+
+#home .container{
+  margin-left: 0;
+  padding-right: 10%;
+}
+
